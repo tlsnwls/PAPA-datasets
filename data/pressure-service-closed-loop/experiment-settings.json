@@ -1,0 +1,12 @@
+{
+  "load_seconds": 3600,
+  "decision_cadence_seconds": 20,
+  "prediction_horizon_seconds": 20,
+  "psi_thresholds": {
+    "low": 0.15,
+    "nominal": 0.2,
+    "high": 0.25
+  },
+  "cpu_target_utilization_percent": 80,
+  "primary_slo": "20-s client-side p95 latency > 0.800 s"
+}
